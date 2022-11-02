@@ -32,5 +32,17 @@ class TestStatistics(unittest.TestCase):
         self.assertAlmostEqual(players_amount, 1)
 
     def test_find_correct_top_scorers(self):
-        scorers = self.statistics.top(4)
-        self.assertAlmostEqual(len(scorers), 4)
+        top_scorers = self.statistics.top(5)
+        self.assertAlmostEqual(len(top_scorers), 5)
+    
+    def test_point_sorting(self):
+        points_sort = self.statistics.top(5, 1)
+        self.assertAlmostEqual(str(points_sort[0]), "Gretzky EDM 35 + 89 = 124")
+
+    def test_goal_sorting(self):
+        goals_sort = self.statistics.top(5, 2)
+        self.assertAlmostEqual(str(goals_sort[0]), "Lemieux PIT 45 + 54 = 99")
+    
+    def test_assist_sorting(self):
+        assists_sort = self.statistics.top(5, 3)
+        self.assertAlmostEqual(str(assists_sort[0]), "Gretzky EDM 35 + 89 = 124")
