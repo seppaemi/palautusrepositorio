@@ -1,5 +1,5 @@
 # Retrospektiivitekniikat
-## start, stop, continue, more of, less of wheel
+## Start, Stop, Continue, More of, Less of wheel
 Tässä menetelmässä tiimiltä kerätään palautetta mahdollisista muutoksista, mitä tiimin tulisi tehdä projektin edetessä. pieni tiimi vaatii noin 10min ja iso tiimi noin 25min.
 
 Fasilitaattori, joka on yksi tiimiläisitä, piirtää ympyrän jonka jakaa viiteen osaan. Osat ovat start, stop, continue, more of, less of. Jokaisen osan kodalla fasilitaattori kysyy tiimiltä osaan soveltuvan kysymyksen. Jos ollaan kohdassa stop, voi fasilitaattori kysyä esimerkiksi mitä tulisi lopettaa. Fasilitaattori kirjaa ylös asiat ja tarkistaa, että ne menevät oikeisiin osiin. Lopussa fasilitaattori kirjoittaa tiivistelmän tiimin ajatuksista. 
