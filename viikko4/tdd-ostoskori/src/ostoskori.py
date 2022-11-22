@@ -41,6 +41,9 @@ class Ostoskori:
         for ostos in self.ostokset:
             if ostos.tuotteen_nimi() == poista.tuotteen_nimi():
                 ostos.muuta_lukumaaraa(-1)
+
+        filtered = list(filter(lambda x: (x.lukumaara() != 0), self.ostokset))
+        self.ostokset = filtered
         # poistaa tuotteen
 
     def tyhjenna(self):
